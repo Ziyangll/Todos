@@ -7,7 +7,7 @@ const mongoose = require("mongoose");
 app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-app.use(express.static(path.join(__dirname, "../frontend/", "build")));
+app.use(express.static(path.join(__dirname, "./", "build")));
 
 dotenv.config();
 mongoose.connect(process.env.MONGODB_URL, {
@@ -55,7 +55,7 @@ app.get("/api/todo", (req, res) => {
 
 // crud (create)
 app.post("/api/todo/create", bodyParser.json(), (req, res) => {
-  
+
   if (req.body.name.trim().length > 0) {
     const aNewItem = new Item({
       name: req.body.name,

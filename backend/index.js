@@ -7,7 +7,7 @@ const mongoose = require("mongoose");
 app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-app.use(express.static(path.join(__dirname, "./", "build")));
+app.use(express.static(path.join(__dirname, "/", "build")));
 
 dotenv.config();
 mongoose.connect(process.env.MONGODB_URL, {
@@ -74,6 +74,6 @@ app.post("/api/todo/delete", bodyParser.json(), (req, res) => {
   res.redirect("/");
 });
 
-app.listen(3001, () => {
-  console.log("running on port 3001");
+app.listen(8080, () => {
+  console.log("running on port 8080");
 });

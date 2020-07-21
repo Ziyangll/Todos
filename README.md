@@ -9,7 +9,11 @@
 # Build with the MERN stack and hosted on Google Cloud
 
 -- MongoDB: Handle storage and authentication
--- Express: RESTful API
+
+-- Express: Backend server
+
 -- React: Frontend
+
 -- Node: Running the Express server
+
 -- Google Cloud: App engine

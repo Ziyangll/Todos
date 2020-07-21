@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../assets/styles.css";
+import Header from "./Header";
 import CreateNewItem from "./CreateNewItem";
 import TodoItem from "./TodoItem";
 
@@ -20,6 +21,7 @@ export default function TodoList() {
 
   return (
     <div className='container'>
+      <Header />
       <ul className='unstyle-list'>
         <CreateNewItem />
         {items.map((item) => (

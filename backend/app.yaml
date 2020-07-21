@@ -1,4 +1,4 @@
-runtime: nodejs12
+runtime: nodejs
 api_version: "1.0"
 env: flexible
 threadsafe: true

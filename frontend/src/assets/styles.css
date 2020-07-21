@@ -38,6 +38,7 @@ body {
 .item {
   word-wrap: break-word;
   min-height: 3rem;
+  border-bottom: 1px solid #ddd;
 }
 
 input:checked + span {
@@ -55,7 +56,6 @@ input[type="text"] {
   padding: 6px 12px;
   margin: 1rem;
   font-size: 14px;
-  color: #555;
   background-color: #fff;
   background-image: none;
   border: 1px solid #ccc;

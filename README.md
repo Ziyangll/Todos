@@ -4,16 +4,16 @@
 [![GitHub language count](https://img.shields.io/github/languages/count/ziyangll/Todos)](https://todos-283807.uc.r.appspot.com/)
 [![GitHub top language](https://img.shields.io/github/languages/top/ziyangll/Todos)](https://todos-283807.uc.r.appspot.com/)
 
--- A todo list CRUD app for all your todo needs
+--A todo list CRUD app for all your todo needs
 
 # Build with the MERN stack and hosted on Google Cloud
 
--- MongoDB: Handle storage and authentication
+--MongoDB: Handle storage and authentication
 
--- Express: Backend server
+--Express: Backend server
 
--- React: Frontend
+--React: Frontend
 
--- Node: Running the Express server
+--Node: Running the Express server
 
--- Google Cloud: App engine
+--Google Cloud: App engine

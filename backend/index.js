@@ -10,11 +10,14 @@ app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, "/", "build")));
 
 dotenv.config();
-mongoose.connect(process.env.MONGODB_URL, {
-  useUnifiedTopology: true,
-  useNewUrlParser: true,
-  useFindAndModify: false,
-});
+mongoose
+  .connect(process.env.MONGODB_URL, {
+    useUnifiedTopology: true,
+    useNewUrlParser: true,
+    useFindAndModify: false,
+  })
+  .then(() => console.log("Database Connected"))
+  .catch((err) => console.log(err));
 
 const itemSchema = {
   name: String,
@@ -55,7 +58,6 @@ app.get("/api/todo", (req, res) => {
 
 // crud (create)
 app.post("/api/todo/create", bodyParser.json(), (req, res) => {
-
   if (req.body.name.trim().length > 0) {
     const aNewItem = new Item({
       name: req.body.name,

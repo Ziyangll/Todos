@@ -1,4 +1,4 @@
-# [demo website](https://todos-283807.uc.r.appspot.com/)
+# [Demo](https://todos-283807.uc.r.appspot.com/)
 
 [![Website](https://img.shields.io/website?down_color=red&down_message=offline&up_color=green&up_message=online&url=https%3A%2F%2Ftodos-283807.uc.r.appspot.com%2F)](https://todos-283807.uc.r.appspot.com/)
 [![GitHub language count](https://img.shields.io/github/languages/count/ziyangll/Todos)](https://todos-283807.uc.r.appspot.com/)
@@ -17,3 +17,10 @@
 - Node: Running the Express server
 
 - Google Cloud: App engine
+
+### The todo list of this todo list
+- accounts and authentication
+
+- something to indicate loading (a spinning loading gif)
+
+- a way to edit the individual todos

@@ -19,9 +19,5 @@
 
 - Google Cloud: App engine
 
-### The todo list of this todo list
+### Roadmap
 - accounts and authentication
-
-- something to indicate loading (a spinning loading gif)
-
-- a way to edit the individual todos
